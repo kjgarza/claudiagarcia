@@ -1,8 +1,14 @@
 # claudiagarcia
 
-Jekyll pages
+Personal website for Claudia García, built with Jekyll.
 
-## Render Locally
+## Render locally
 
-    $ jekyll serve --watch
+    $ bundle install
+    $ bundle exec jekyll serve --watch
 
+Or with Docker:
+
+    $ docker compose up
+
+The site is then served at http://localhost:4000.
